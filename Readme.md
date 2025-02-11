@@ -1,20 +1,3 @@
-# QA Tech Week - Primeira Edição
-
-Bem-vindo ao repositório do **QA Tech Week - Primeira Edição**! Aqui você encontrará as instruções para configurar o ambiente, subir os serviços necessários e rodar os testes automatizados com Playwright.
-
-## 📌 Pré-requisitos
-Antes de começar, certifique-se de ter os seguintes softwares instalados em seu sistema:
-
-- [Git for Windows](https://gitforwindows.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Node.js (versão LTS)](https://nodejs.org/)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-
-## 🐋 Guia de Instalação do Docker
-- [Windows](https://dev.to/papitofernando/instalando-o-docker-no-windows-10-home-ou-professional-com-wsl-2-26m3)
-- [MacOS](https://docs.docker.com/desktop/setup/install/mac-install/)
-- [Linux Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-
 ## 🚀 Configuração do Ambiente
 1. Faça um Fork do projeto
 2. Clone este repositório:
