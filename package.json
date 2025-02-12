@@ -1,0 +1,13 @@
+{
+  "name": "qatw-primeira-edicao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lpereiras/qatw-primeira-edicao.git",
+  "author": "luscape <lucas.pdsantos11@gmail.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
+  },
+  "scripts": {}
+}
