@@ -25,21 +25,21 @@ O projeto utiliza Docker Compose para gerenciar os serviços necessários para o
 
 ## 🧪 Executando os Testes com Playwright
 
-1. Instale as dependências do Playwright:
+1. Instale as dependências do projeto:
    ```sh
-   npx playwright install
+   yarn install
    ```
 2. Para rodar os testes localmente:
    ```sh
-   npx playwright test
+   yarn playwright test
    ```
 3. Para visualizar o relatório dos testes após a execução:
    ```sh
-   npx playwright show-report
+   yarn playwright show-report
    ```
 4. Para rodar os testes em modo UI (visualizando a execução):
    ```sh
-   npx playwright test --ui
+   yarn playwright test --ui
    ```
 
 ## 📄 Licença
