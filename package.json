@@ -12,8 +12,7 @@
   "scripts": {
     "pyr:run": "yarn playwright test",
     "pyr:open": "yarn playwright test --ui",
-    "docker:up": "docker compose up -d",
-    "docker:down": "docker compose down"
+    "docker:up": "docker compose up -d"
   },
   "dependencies": {
     "bullmq": "^5.41.1",
