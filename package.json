@@ -9,7 +9,12 @@
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.1"
   },
-  "scripts": {},
+  "scripts": {
+    "pyr:run": "yarn playwright test",
+    "pyr:open": "yarn playwright test --ui",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
   "dependencies": {
     "bullmq": "^5.41.1",
     "pg-promise": "^11.10.2"
