@@ -15,6 +15,7 @@ pipeline {
         stage('Execução de testes E2E') {
             steps {
                 sh 'yarn pyr:run'
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }  
     }

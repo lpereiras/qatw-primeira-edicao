@@ -32,7 +32,7 @@ test('should access the user account', async ({ page }) => {
 
   //const code = await getJob() //consulta o código 2FA através da fila do redis
 
-  const code = await get2FACode(user.cpf) ////consulta o código 2FA através da fila do banco
+  const code = await get2FACode(user.cpf) //consulta o código 2FA através da fila do banco
 
   await page.getByPlaceholder('000000').fill(code)
   await page.getByRole('button', { name: 'Verificar' }).click()
